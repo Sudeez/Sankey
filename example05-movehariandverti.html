@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <style>
+        .node rect {
+  cursor: move;
+  fill-opacity: .9;
+  shape-rendering: crispEdges;
+}
+ 
+.node text {
+  pointer-events: none;
+  text-shadow: 0 1px 0 #fff;
+}
+ 
+.link {
+  fill: none;
+  stroke: #000;
+  stroke-opacity: .2;
+}
+ 
+.link:hover {
+  stroke-opacity: .5;
+}
+    </style>
+
+
+</head>
+<body>
+    <div  id="chart">
+        <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+  
+    <script src="sanky/sankey.js"></script>
+    <script src="data/data07-movehariandverti.js"></script>
+    </div>
+       
+   
+</body>
+</html>
